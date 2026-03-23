@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: fraud-awareness-bengali
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
